@@ -17,7 +17,7 @@ function diminuirFonte() {
     const style = window.getComputedStyle(body);
     const atual = parseFloat(style.fontSize);
 
-    if (atual > 12) { // define um limite mínimo
+    if (atual > 12) {
         body.style.fontSize = (atual - 2) + 'px';
     }
 }
